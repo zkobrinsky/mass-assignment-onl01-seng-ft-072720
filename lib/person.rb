@@ -7,7 +7,7 @@ class Person
 
   def initialize(hash)
     # hash.each{|key, value| self.send(("#{key}="), value)}
-    hash.each{|key, value| self.send(key=, value)
+    hash.each{|key, value| self.send("#{key}="", value)
     binding.pry}
 
   end
